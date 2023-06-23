@@ -14,7 +14,7 @@ function updataContent(file){
     fileReader.readAsDataURL(file);
     fileReader.onload = () => {
       content.innerHTML = `
-      <img width="500px" src="${fileReader.result}" alt="">
+      <img width="380px" src="${fileReader.result}" alt="">
       <p>${inputFile.files[0].name}</p>
       `;
       display.innerHTML = "<h4>Image Added</h4> <h6>Success!</h6>";
