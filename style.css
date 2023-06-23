@@ -6,8 +6,10 @@
 
 body{
   font-family: 'Lato', sans-serif;
-  color: #4f4f4f;
+  color: #000000;
+  background-color: #ffffff;
   display: flex;
+  text-align: center;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
@@ -29,21 +31,23 @@ h6{
 }
 
 .dropzone{
-  margin-top: 20px;
+  margin-top: 50px;
   height: 200px;
   width: 300px;
-  border: 2px solid #8183e7;
-  border-radius: 5px;
-  background-color: #ccc;
+  border: 6px solid #6c6ee6;
+  border-radius: 8px;
+  background-color: #6c6ee674;
+
 }
 
 .zone-dragenter{
-  background-color: #ededed;
-  border: 2px solid #00dfa3;
-  margin-top: 20px;
-  height: 200px;
-  width: 300px;
-  border-radius: 5px;
+  transition: .9s;
+  background-color: #ff7f5077;
+  border: 8px solid #ff7f50;
+  margin-top: 50px;
+  height: 240px;
+  width: 380px;
+  border-radius: 8px;
 }
 
 #input-file{
